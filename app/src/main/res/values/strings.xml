@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GoNomad_2</string>
+    <string-array name="destinations">
+        <item>Maroon Bells,USA</item>
+        <item>Grand Canyon,USA</item>
+        <item>Blue Ridge Mountains,Greece</item>
+        <item>Pvitvice Lakes,Croatia</item>
+        <item>Salar de Uyuni, Bolivia</item>
+        <item>Sossusulei,Namibia</item>
+        <item>Torres del paine,Chile</item>
+        <item>Victoria Falls,Zambia</item>
+        <item>Moraine Lake,Canada</item>
+        <item>Lake Bled,Slovenia</item>
+        <item>Mauna Kea Beach,Hawaii</item>
+        <item>Niagara Falls,USA</item>
+        <item>Amalfi Coast,Italy</item>
+        <item>Apenzell,Switzerland</item>
+    </string-array>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/maroonbells" />
+
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_height="wrap_content"
+        android:text="Maroon Bells"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_view_votes"
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_height="wrap_content"
+        android:text="Votes: " />
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+    <TextView
+        android:id="@+id/text_view_desc"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_height="287dp"
+        android:text="TextView"
+        android:scrollbars = "vertical"/>
+    </ScrollView>
+
+
+</LinearLayout>
+
